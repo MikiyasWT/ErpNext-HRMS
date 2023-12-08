@@ -1,0 +1,328 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "TEE-.####",
+ "creation": "2023-11-30 14:11:38.438201",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "basic_information_column",
+  "first_name",
+  "column_break_n7sa",
+  "middle_name",
+  "column_break_qxdq",
+  "last_name",
+  "section_break_z3tm",
+  "birth_date",
+  "column_break_gywl",
+  "birth_place",
+  "column_break_p0zn",
+  "gender",
+  "section_break_aqhg",
+  "salutation",
+  "column_break_nriy",
+  "phone",
+  "column_break_xo33",
+  "address",
+  "education_section",
+  "education_background",
+  "previous_experience_section",
+  "previous_experience",
+  "in_case_of_emergency_section",
+  "emergency_person",
+  "column_break_mynd",
+  "relation_to_employee",
+  "column_break_jmww",
+  "phone_no",
+  "section_break_iyqo",
+  "current_role",
+  "column_break_beid",
+  "salary",
+  "column_break_4v9e",
+  "status",
+  "section_break_bq66",
+  "starting_date",
+  "column_break_j8zf",
+  "end_date",
+  "column_break_bqrj",
+  "answers",
+  "leaves_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_aqhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle_Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last_Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_n7sa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qxdq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_p0zn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "basic_information_column",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "section_break_z3tm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gywl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "label": "birth date"
+  },
+  {
+   "fieldname": "birth_place",
+   "fieldtype": "Data",
+   "label": "birth_place"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "column_break_nriy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xo33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "education_section",
+   "fieldtype": "Section Break",
+   "label": "Education"
+  },
+  {
+   "fieldname": "education_background",
+   "fieldtype": "Table",
+   "options": "Employee-Background"
+  },
+  {
+   "fieldname": "previous_experience_section",
+   "fieldtype": "Section Break",
+   "label": "Previous Experience"
+  },
+  {
+   "fieldname": "previous_experience",
+   "fieldtype": "Table",
+   "options": "Previous-Experience"
+  },
+  {
+   "fieldname": "in_case_of_emergency_section",
+   "fieldtype": "Section Break",
+   "label": "In case of Emergency"
+  },
+  {
+   "fieldname": "emergency_person",
+   "fieldtype": "Data",
+   "label": "Emergency Contact Person"
+  },
+  {
+   "fieldname": "column_break_mynd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "relation_to_employee",
+   "fieldtype": "Data",
+   "label": "relation to employee"
+  },
+  {
+   "fieldname": "column_break_jmww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "+251-",
+   "fieldname": "phone_no",
+   "fieldtype": "Phone",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "section_break_iyqo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_role",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "current role",
+   "options": "TE-Roles"
+  },
+  {
+   "fieldname": "column_break_beid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "section_break_bq66",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "starting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "starting date"
+  },
+  {
+   "fieldname": "column_break_j8zf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "end_date"
+  },
+  {
+   "fieldname": "column_break_bqrj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Currency",
+   "label": "Salary"
+  },
+  {
+   "fieldname": "column_break_4v9e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Select",
+   "label": "Salutation",
+   "options": "Mr.\nMrs.\nMiss\nDr.\nEng.\nSg."
+  },
+  {
+   "default": "+251-",
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone "
+  },
+  {
+   "fieldname": "answers",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Answers to",
+   "options": "Employee-Information"
+  },
+  {
+   "fieldname": "leaves_section",
+   "fieldtype": "Section Break",
+   "label": "Leaves"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Employee-Information",
+   "link_fieldname": "full_name",
+   "table_fieldname": "full_name"
+  }
+ ],
+ "modified": "2023-12-07 16:24:51.571669",
+ "modified_by": "Administrator",
+ "module": "EIMS",
+ "name": "Employee-Information",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "TechEthio Employee",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "TechEthio HR Officer",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "full_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

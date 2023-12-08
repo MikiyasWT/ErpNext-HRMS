@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:company",
+ "creation": "2023-12-05 08:48:00.349209",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "role",
+  "starting_from",
+  "untill",
+  "company_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "unique": 1
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "role"
+  },
+  {
+   "fieldname": "starting_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "starting from"
+  },
+  {
+   "fieldname": "untill",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "untill"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 08:52:02.525406",
+ "modified_by": "Administrator",
+ "module": "EIMS",
+ "name": "Previous-Experience",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

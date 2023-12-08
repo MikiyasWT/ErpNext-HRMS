@@ -1,0 +1,37 @@
+{
+ "based_on": "creation",
+ "chart_name": "Leave Applications Chart",
+ "chart_type": "Count",
+ "color": "#36b54b",
+ "creation": "2023-12-06 16:34:32.354510",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "TEthioLeave-Application",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "last_synced_on": "2023-12-07 09:52:56.753085",
+ "modified": "2023-12-07 09:53:25.016706",
+ "modified_by": "Administrator",
+ "module": "EIMS",
+ "name": "Leave Applications Chart",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "TechEthio HR Officer"
+  }
+ ],
+ "source": "",
+ "time_interval": "Daily",
+ "timeseries": 1,
+ "timespan": "Last Week",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}
